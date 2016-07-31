@@ -15,17 +15,17 @@ classifiers = ['Development Status :: 4 - Beta',
                'Topic :: System :: Hardware']
 
 setup(
-    name             = 'adafruit-io',
+    name             = 'pyOnenet',
     version          = '1.1.1',
-    author           = 'Justin Cooper',
-    author_email     = 'justin@adafruit.com',
-    packages         = ['Adafruit_IO'],
+    author           = 'Jack Zhong',
+    author_email     = 'jzopen@yeah.net,
+    packages         = ['pyOnenet'],
     py_modules       = ['ez_setup'],
-    url              = 'https://github.com/adafruit/io-client-python',
+    url              = 'https://github.com/ardypro/pyOnenet',
     license          = 'MIT',
-    keywords         = 'Adafruit IO',
+    keywords         = 'Adafruit IO, Onenet',
     classifiers      = classifiers,
-    description      = 'Client library for Adafruit IO (http://io.adafruit.com/).',
+    description      = 'Client library for onenet (open.iot.10086.cn).',
     long_description = open('README.md').read(),
     install_requires = ["requests", "paho-mqtt"]
 )

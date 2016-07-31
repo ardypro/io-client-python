@@ -1,3 +1,8 @@
+created this repo based on adafruit-io  
+--Jack Zhong on Jul 31, 2016
+
+
+
 # adafruit-io
 
 A [Python](https://www.python.org/) client for use with [io.adafruit.com](https://io.adafruit.com).  Compatible with both Python 2.7+ and Python 3.3+.
